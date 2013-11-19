@@ -17,6 +17,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "68_move", "..\68_move\68_mo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "39_nonstatic_sizeof", "..\39_nonstatic_sizeof\39_nonstatic_sizeof.vcxproj", "{87250992-E1FF-4CF1-A936-65E2374A608A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "78_move_2", "..\78_move_2\78_move_2.vcxproj", "{2C7F12DC-A75F-4490-86D2-D7BD2F85C18C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "92_initializer_list", "..\92_initializer_list\92_initializer_list.vcxproj", "{2FF5AD0C-F328-4177-806F-2674E4F8F34E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -51,6 +55,14 @@ Global
 		{87250992-E1FF-4CF1-A936-65E2374A608A}.Debug|Win32.Build.0 = Debug|Win32
 		{87250992-E1FF-4CF1-A936-65E2374A608A}.Release|Win32.ActiveCfg = Release|Win32
 		{87250992-E1FF-4CF1-A936-65E2374A608A}.Release|Win32.Build.0 = Release|Win32
+		{2C7F12DC-A75F-4490-86D2-D7BD2F85C18C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2C7F12DC-A75F-4490-86D2-D7BD2F85C18C}.Debug|Win32.Build.0 = Debug|Win32
+		{2C7F12DC-A75F-4490-86D2-D7BD2F85C18C}.Release|Win32.ActiveCfg = Release|Win32
+		{2C7F12DC-A75F-4490-86D2-D7BD2F85C18C}.Release|Win32.Build.0 = Release|Win32
+		{2FF5AD0C-F328-4177-806F-2674E4F8F34E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2FF5AD0C-F328-4177-806F-2674E4F8F34E}.Debug|Win32.Build.0 = Debug|Win32
+		{2FF5AD0C-F328-4177-806F-2674E4F8F34E}.Release|Win32.ActiveCfg = Release|Win32
+		{2FF5AD0C-F328-4177-806F-2674E4F8F34E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
