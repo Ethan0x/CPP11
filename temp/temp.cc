@@ -1,21 +1,19 @@
-//1.auto
-template <typename T1, typename T2>
-double Sum(T1 & t1, T2 & t2)
-{
-	auto s = t1 + t2;
-	return s;
-}
+#include <iostream>
 
-//2.decltype
-template<typename T1, typename T2>
-decltype (t1 + t2) Sum(T1 & t1, T2 & t2)
+class HasPtrMem
 {
-	return t1 + t2;
-}
+public:
+	HasPtrMem() :d_(new int(100)) { }
+	~HasPtrMem(){ delete d_; }
+	int *d_;
+};
+int main(int argc, const char *argv[])
+{
+	HasPtrMem a;
+	HasPtrMem b = a;
 
-//3.auto + decltype
-template <typename T1, typename T2>
-auto Sum(T1 & t1, T2 & t2) -> decltype(t1 + t2)
-{
-	return t1 + t2;
+	std::cout << *a.d_ << std::endl;
+	std::cout << *b.d_ << std::endl;
+
+	return 0;
 }
